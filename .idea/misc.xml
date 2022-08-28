@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/android/AndroidStudioProjects/DeepSeaOperation/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.236" />
+        <entry key="..\:/Users/android/AndroidStudioProjects/DeepSeaOperation/app/src/main/res/drawable-v24/submarine.xml" value="0.233" />
+        <entry key="..\:/Users/android/AndroidStudioProjects/DeepSeaOperation/app/src/main/res/drawable/background_home_1.xml" value="0.123" />
+        <entry key="..\:/Users/android/AndroidStudioProjects/DeepSeaOperation/app/src/main/res/drawable/background_home_2.xml" value="0.123" />
+        <entry key="..\:/Users/android/AndroidStudioProjects/DeepSeaOperation/app/src/main/res/drawable/background_home_3.xml" value="0.123" />
+        <entry key="..\:/Users/android/AndroidStudioProjects/DeepSeaOperation/app/src/main/res/drawable/background_home_list.xml" value="0.123" />
+        <entry key="..\:/Users/android/AndroidStudioProjects/DeepSeaOperation/app/src/main/res/drawable/ic_launcher_background.xml" value="0.176" />
+        <entry key="..\:/Users/android/AndroidStudioProjects/DeepSeaOperation/app/src/main/res/drawable/menu_item_button.xml" value="0.236" />
+        <entry key="..\:/Users/android/AndroidStudioProjects/DeepSeaOperation/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/android/AndroidStudioProjects/DeepSeaOperation/app/src/main/res/layout/dialog_join_game.xml" value="0.1" />
+        <entry key="..\:/Users/android/AndroidStudioProjects/DeepSeaOperation/app/src/main/res/layout/fragment_game.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/android/AndroidStudioProjects/DeepSeaOperation/app/src/main/res/layout/fragment_history.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/android/AndroidStudioProjects/DeepSeaOperation/app/src/main/res/layout/fragment_menu.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/android/AndroidStudioProjects/DeepSeaOperation/app/src/main/res/layout/fragment_waiting_room.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/android/AndroidStudioProjects/DeepSeaOperation/app/src/main/res/layout/main_page_with_fragment.xml" value="0.1" />
+        <entry key="..\:/Users/android/AndroidStudioProjects/DeepSeaOperation/app/src/main/res/layout/main_page_with_fragmentq.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/android/AndroidStudioProjects/DeepSeaOperation/app/src/main/res/layout/player_waiting_item.xml" value="0.264" />
+        <entry key="..\:/Users/android/AndroidStudioProjects/DeepSeaOperation/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2435" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

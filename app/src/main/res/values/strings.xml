@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">Deep Sea Operation</string>
+
+    <!-- main Page -->
+    <string name="create_title">Créer</string>
+    <string name="join_title">Rejoindre</string>
+    <string name="history_title">Historique</string>
+    <string name="quit_title">Quitter</string>
+
+    <!-- History -->
+    <string name="history_date">Date</string>
+    <string name="history_player_number">Nombre de joueurs</string>
+    <string name="history_turn_passed">Tours réalisés</string>
+    <string name="history_details">Détails</string>
+    <string name="history_player_list">Liste de joueurs ayant participé</string>
+
+    <!-- Helpers -->
+    <string name="back_button">Retour</string>
+
+    <!-- join Game -->
+    <string name="title_join">Rejoindre la partie</string>
+    <string name="dialogue_ip_adress_hint">Adresse IP</string>
+    <string name="ready_title">Ready</string>
+    <string name="ready_confirm">V</string>
+    <string name="ready_not">X</string>
+    <string name="player_list">Liste des joueurs</string>
+    <!-- create Game -->
+    <string name="title_create">Création de partie</string>
+    <string name="ip_adresse">Adresse IP</string>
+    <string name="ip_port">Port</string>
+    <string name="start_game">Débuter la partie</string>
+
+    <!-- buttons -->
+    <string name="return_button">Retour</string>
+    <string name="ready_button">Pret !</string>
+    <string name="not_ready_button">Pas pret !</string>
+
+    <!-- waiting -->
+    <string name="waiting_room">Salle d\'attente</string>
+    <string name="waiting_room_ip">Adresse Ip :</string>
+
+    <!-- History -->
+    <string name="history">Historique de parties</string>
+    <string name="recent_games">Vos dernières parties :</string>
+
+    <!-- Game Elements -->
+    <string name="code_name">Nom de code</string>
+    <string name="agent_name">Agent</string>
+
+    <string name="quit_game">Abandonner le navire</string>
+    <string name="quit_player_left">a quitté la partie</string>
+
+    <string name="game_turn">Tour</string>
+
+    <string name="game_instructor_link">Liez</string>
+    <string name="game_instructor_link_to">à</string>
+    <string name="game_instructor_push_button">Appuyez</string>
+    <string name="game_instructor_x_times">fois</string>
+    <string name="game_instructor_on">sur</string>
+    <string name="game_instructor_the_button"> le bouton</string>
+    <string name="game_instructor_activate_switch">Activez</string>
+    <string name="game_instructor_switch">l\'interupteur</string>
+
+    <string-array name="button_name_list">
+        <item>Babord</item>
+        <item>Tribord</item>
+        <item>Monter</item>
+        <item>Descendre</item>
+        <item>Alerte générale</item>
+        <item>Louvoyer</item>
+        <item>Scier du fromage</item>
+        <item>Veiller au grain</item>
+    </string-array>
+
+    <string-array name="switch_name_list">
+        <item>Vider les écoutilles</item>
+        <item>Souquer les artimuses</item>
+        <item>Carguer les entrimonts</item>
+        <item>Branle-bas de combat</item>
+        <item>À border l\'artimon</item>
+        <item>Servire les boujaron</item>
+        <item>Virer au guideau</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

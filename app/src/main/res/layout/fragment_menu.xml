@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/menuLayout"
+    app:destination="@+id/MenuFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_home_list"
+    tools:context=".MenuFragment">
+
+    <!--  Title  -->
+    <TextView
+        android:id="@+id/textView"
+        style="@style/AppNameTextStyle"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15sp"
+
+        android:text="@string/app_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/playerName"
+        style="@style/DefaultTextStyleWhite"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.298"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:text="✔️"
+        android:id="@+id/validateName"
+        android:background="@drawable/text_scroll"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+
+        app:layout_constraintLeft_toRightOf="@id/playerName"
+        app:layout_constraintTop_toTopOf="@id/playerName"
+        app:layout_constraintBottom_toBottomOf="@id/playerName"
+        />
+
+    <!--  CREATE  -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/createButton"
+
+        android:layout_width="@dimen/buttonWidth"
+        android:layout_height="@dimen/buttonHeight"
+
+        style="@style/TitleTextStyle"
+
+        android:layout_marginTop="120dp"
+        android:background="@drawable/text_scroll"
+        android:text="@string/create_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/playerName"
+        />
+
+    <!--  Join  -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/joinButton"
+        style="@style/TitleTextStyle"
+
+        android:layout_width="@dimen/buttonWidth"
+
+        android:layout_height="@dimen/buttonHeight"
+
+        android:background="@drawable/text_scroll"
+        android:paddingLeft="20dp"
+        android:text="@string/join_title"
+        app:layout_constraintBottom_toTopOf="@+id/historyButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/createButton"
+        />
+
+    <!--  HISTORY  -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/historyButton"
+        style="@style/TitleTextStyle"
+        android:layout_width="@dimen/buttonWidth"
+
+        android:layout_height="@dimen/buttonHeight"
+
+        android:background="@drawable/text_scroll"
+        android:paddingLeft="20dp"
+        android:text="@string/history_title"
+        app:layout_constraintBottom_toTopOf="@+id/submarine"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/joinButton"
+        />
+
+    <!--  QUIT  -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/quitButton"
+        android:layout_width="@dimen/buttonWidth"
+        android:layout_height="@dimen/buttonHeight"
+
+        style="@style/TitleTextStyle"
+
+        android:layout_marginBottom="15dp"
+
+        android:background="@drawable/text_scroll"
+        android:text="@string/quit_title"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+    <!--  SUBMARINE  -->
+    <ImageView
+        android:id="@+id/submarine"
+        android:layout_width="@dimen/subMainMenuWidth"
+
+        android:layout_height="@dimen/subMainMenuHeight"
+        android:src="@drawable/yellow_submarine_gif_2"
+        app:layout_constraintBottom_toTopOf="@+id/quitButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/historyButton"
+        tools:ignore="OnClick" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/historyLayout"
+    app:destination="@+id/HistoryFragment"
+    android:background="@drawable/background_home_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HistoryFragment">
+
+    <!--  Title  -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/historyTitle"
+
+        android:layout_marginTop="15sp"
+
+        style="@style/AppNameTextStyle"
+        android:text="@string/history"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/recentGames"
+
+        android:text="@string/recent_games"
+
+        android:layout_marginTop="20dp"
+        style="@style/TitleTextStyle"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/historyTitle" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="XXX.X.X.XX:YYYY"
+
+        style="@style/DefaultTextStyleWhite"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/recentGames" />
+
+
+    <!--  QUIT  -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/quitButtonHistory"
+        android:layout_width="130sp"
+        android:layout_height="@dimen/buttonHeight"
+
+        style="@style/TitleTextStyle"
+
+        android:layout_marginBottom="15dp"
+
+        android:background="@drawable/text_scroll"
+        android:text="@string/return_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

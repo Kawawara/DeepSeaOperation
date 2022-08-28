@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="buttonWidth">170sp</dimen>
+    <dimen name="buttonHeight">60sp</dimen>
+
+    <dimen name="subMainMenuWidth">380sp</dimen>
+    <dimen name="subMainMenuHeight">210sp</dimen>
+</resources>

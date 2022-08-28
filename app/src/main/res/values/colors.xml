@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#110077</color>
+    <color name="purple_500">#1B005C</color>
+    <color name="purple_700">#150045</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- text colors -->
+    <color name="text_color">#989CA0</color>
+    <color name="bg_color">#989CA0</color>
+
+    <!-- boat colors -->
+    <color name="wood">#5e2a0e</color>
+    <color name="tainted_wood">#651F1F</color>
+    <color name="sail">#C8C477</color>
+    <color name="ink">#343434</color>
+    <color name="paper">#ffffbf</color>
+
+    <!-- game colors -->
+    <color name="grey">#989CA0</color>
+    <color name="dark_grey">#202122</color>
+    <color name="ok_green">#77D353</color>
+    <color name="red">#DB1A1A</color>
+    <color name="yellow">#D8C732</color>
+</resources>
